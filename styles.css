@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: teal;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+}
+
+#left-column-container,
+#center-column-container,
+#right-column-container {
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+#center-column-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+#verse-block-container {
+    background-color: blueviolet;
+    background-image: url("images/dailybread_test_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+#verse-container {
+    width: 100%;
+    backdrop-filter: blur(0.4px) brightness(0.8);
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#verse {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    padding: 30px;
+    text-shadow: 0 2px 3px rgb(0, 0, 0)
+}
+
+#verse-superscription-container {
+    background-color: aquamarine;
+}
