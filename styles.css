@@ -1,12 +1,28 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* border: red dotted 5px; */
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+}
+
+#message-container {
+  border: rgb(0, 153, 255) dashed 3px;
+  /* height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: top; */
 }
 
 #wallpaper-container {
   width: 600px;
   height: 350px;
-  /* border: red dotted 3px; */
+  border: red dotted 3px;
   position: relative;
 }
 
