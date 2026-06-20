@@ -189,4 +189,7 @@ verses = [
 const date = new Date();
 const day = date.getDate() - 1;
 
-console.log(verses[day].verse);
+const verseAddress = document.getElementById("verse-address");
+verseAddress.textContent = verses[day - 1].address;
+const verse = document.getElementById("verse");
+verse.textContent = verses[day - 1].verse;
