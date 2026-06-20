@@ -30,7 +30,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(80%);
+  filter: brightness(90%);
   border-radius: 30px;
 }
 
@@ -40,7 +40,7 @@ body {
   bottom: 30px;
   color: aliceblue;
   font-size: 24px;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 1px 1px #000000;
 }
 
 #verse-container {
@@ -59,5 +59,5 @@ body {
   color: aliceblue;
   font-size: 24px;
   line-height: 1.6;
-  text-shadow: 3px 3px #000000;
+  text-shadow: 2px 2px 6px #000000;
 }
