@@ -409,7 +409,7 @@ const day = date.getDate() - 1;
 const monthNum = date.getMonth();
 
 const verseWallpaper = document.getElementById("verse-wallpaper");
-verseWallpaper.style.backgroundImage = `url(${verses[1].image})`;
+verseWallpaper.style.backgroundImage = `url(${verses[day].image})`;
 
 const dailyVerse = document.getElementById("daily-verse");
 dailyVerse.textContent = verses[day].NLT_verse;
