@@ -15,14 +15,37 @@ body {
   justify-content: center;
 }
 
-#daily-verse-container {
-  border: red solid 2px;
+#top-banner {
+  /* border: 2px solid red; */
+  background-color: rgb(229, 210, 187);
+  border-radius: 25px 25px 0px 0px;
+  width: 600px;
+  height: 100px;
+  margin-top: 30px;
+  overflow: hidden;
+  display: flex;
+}
+
+#icon {
+  /* border: 2px solid blue; */
+  padding: 10px 0px 10px 30px;
+  
+}
+
+#title {
+  /* border: 2px solid green; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  flex-grow: 1;
 }
 
 
-
 #verse-wallpaper {
-  border: blue solid 2px;
+  /* border: blue solid 2px; */
 
   width: 600px;
   height: 350px;
@@ -45,7 +68,7 @@ body {
 
 #daily-verse {
   height: 85%;
-  padding: 30px 30px 0px 30px;
+  padding: 50px 30px 0px 30px;
   line-height: 1.6;
 }
 
