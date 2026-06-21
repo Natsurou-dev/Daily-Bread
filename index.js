@@ -409,7 +409,7 @@ const day = date.getDate() - 1;
 const monthNum = date.getMonth();
 
 const verseWallpaper = document.getElementById("verse-wallpaper");
-verseWallpaper.style.backgroundImage = `url(${verses[day].image})`;
+verseWallpaper.style.backgroundImage = `url(${verses[1].image})`;
 
 const dailyVerse = document.getElementById("daily-verse");
 dailyVerse.textContent = verses[day].NLT_verse;
@@ -419,3 +419,45 @@ dailyAddress.textContent = verses[day].address;
 
 const dailyDate = document.getElementById("date");
 dailyDate.textContent = `${months[monthNum]} ${day + 1}`;
+
+//NLT Translation
+const translation_0_verse = document.getElementById("0-verse");
+translation_0_verse.textContent = verses[day].NLT_verse;
+const translation_0_address = document.getElementById("0-verse-address");
+translation_0_address.textContent = `${verses[day].address} NLT`;
+
+//NKJV Translation
+const translation_1_verse = document.getElementById("1-verse");
+translation_1_verse.textContent = verses[day].NKJV_verse;
+const translation_1_address = document.getElementById("1-verse-address");
+translation_1_address.textContent = `${verses[day].address} NKJV`;
+
+//ESV Translation
+const translation_2_verse = document.getElementById("2-verse");
+translation_2_verse.textContent = verses[day].ESV_verse;
+const translation_2_address = document.getElementById("2-verse-address");
+translation_2_address.textContent = `${verses[day].address} ESV`;
+
+//AMP Translation
+const translation_3_verse = document.getElementById("3-verse");
+translation_3_verse.textContent = verses[day].AMP_verse;
+const translation_3_address = document.getElementById("3-verse-address");
+translation_3_address.textContent = `${verses[day].address} AMP`;
+
+//NASB Translation
+const translation_4_verse = document.getElementById("4-verse");
+translation_4_verse.textContent = verses[day].NASB_verse;
+const translation_4_address = document.getElementById("4-verse-address");
+translation_4_address.textContent = `${verses[day].address} NASB`;
+
+//KJV Translation
+const translation_5_verse = document.getElementById("5-verse");
+translation_5_verse.textContent = verses[day].KJV_verse;
+const translation_5_address = document.getElementById("5-verse-address");
+translation_5_address.textContent = `${verses[day].address} KJV`;
+
+//NRSV Translation
+const translation_6_verse = document.getElementById("6-verse");
+translation_6_verse.textContent = verses[day].NRSV_verse;
+const translation_6_address = document.getElementById("6-verse-address");
+translation_6_address.textContent = `${verses[day].address} NRSV`;
