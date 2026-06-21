@@ -139,8 +139,9 @@ body {
 }
 
 @media (max-width: 768px) {
+
   #verse-wallpaper {
-    width: 400px;
+    width: 375px;
   }
 
   #daily-verse {
@@ -154,15 +155,15 @@ body {
   }
 
   #top-banner {
-    width: 400px;
+    width: 375px;
   }
 
   #title {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   #translations-container {
-    width: 400px;
+    width: 375px;
   }
 
   #translations-list>li {
