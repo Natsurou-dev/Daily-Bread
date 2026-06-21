@@ -220,9 +220,11 @@ verses = [
 const date = new Date();
 const day = date.getDate() - 1;
 
-const verseAddress = document.getElementById("verse-address");
-verseAddress.textContent = verses[day - 1].address;
-const verse = document.getElementById("verse");
-verse.textContent = verses[day - 1].verse;
-const wallpaper = document.getElementById("wallpaper");
-wallpaper.src = verses[day - 6].image;
+const verseWallpaper = document.getElementById("verse-wallpaper");
+verseWallpaper.style.backgroundImage = `url(${verses[day - 2].image})`;
+
+const dailyVerse = document.getElementById("daily-verse");
+dailyVerse.textContent = verses[day - 1].verse;
+
+const dailyVerseAddress = document.getElementById("daily-verse-address");
+dailyVerseAddress.textContent = verses[day - 1].address;
