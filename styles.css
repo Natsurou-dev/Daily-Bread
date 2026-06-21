@@ -111,7 +111,7 @@ body {
   padding-bottom: 50px;
 }
 
-#translations-list > li {
+#translations-list>li {
   height: 150px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -130,10 +130,52 @@ body {
   padding-right: 13px;
 }
 
-#translations-list > li:nth-child(odd) {
+#translations-list>li:nth-child(odd) {
   background-color: rgb(197, 166, 127);
 }
 
-#translations-list > li:nth-child(even) {
+#translations-list>li:nth-child(even) {
   background-color: rgb(229, 210, 187);
+}
+
+@media (max-width: 768px) {
+  #verse-wallpaper {
+    width: 400px;
+  }
+
+  #daily-verse {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  #date,
+  #daily-verse-address {
+    font-size: 18px;
+  }
+
+  #top-banner {
+    width: 400px;
+  }
+
+  #title {
+    font-size: 48px;
+  }
+
+  #translations-container {
+    width: 400px;
+  }
+
+  #translations-list>li {
+    height: 185px;
+  }
+
+  .translated-verse {
+    height: 135px;
+  }
+
+  .translated-verse-address {
+    height: 50px;
+    text-align: right;
+    padding-right: 13px;
+  }
 }
