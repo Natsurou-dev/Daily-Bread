@@ -15,14 +15,15 @@ body {
 }
 
 #main-container {
-
   width: 350px;
+  height: auto;
   margin-top: 35px;
 }
 
 #banner {
   border-radius: 15px;
   height: 75px;
+  width: auto;
   background-color: rgb(229, 210, 187);
   display: flex;
   flex-direction: row;
@@ -40,4 +41,56 @@ body {
 #banner-title {
   font-size: 45px;
   text-align: center;
+}
+
+#verse-block-container {
+  margin-top: 35px;
+  height: 250px;
+  width: auto;
+  background-image: url("photos/0.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px black;
+}
+
+#verse-container {
+  height: 210px;
+  width: auto;
+  overflow: hidden;
+}
+
+#verse {
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  text-wrap: wrap;
+  padding: 20px;
+  line-height: 1.3;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9), 1px 1px 4px rgba(0, 0, 0, 0.9);
+  text-align: justify;
+}
+
+#address-date-container {
+  height: 40px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#date {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9), 1px 1px 4px rgba(0, 0, 0, 0.9);
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+#address {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9), 1px 1px 4px rgba(0, 0, 0, 0.9);
+  font-size: 18px;
+  padding-right: 20px;
 }

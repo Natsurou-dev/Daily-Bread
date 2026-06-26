@@ -1,3 +1,4 @@
+//MAX VERSE LENGTH CAPABILITY: 238
 const verses = [
   //0
   {
