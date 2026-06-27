@@ -16,14 +16,12 @@ body {
 
 #main-container {
   width: 350px;
-  height: auto;
   margin-top: 35px;
 }
 
 #banner {
   border-radius: 15px;
   height: 75px;
-  width: auto;
   background-color: rgb(229, 210, 187);
   display: flex;
   flex-direction: row;
@@ -35,7 +33,6 @@ body {
 
 #banner-icon {
   height: 70px;
-  width: auto;
 }
 
 #banner-title {
@@ -52,13 +49,10 @@ body {
   border-radius: 15px;
   box-shadow: 3px 3px 5px black;
   padding: 20px;
-  height: auto;
-  width: auto;
 }
 
 #verse-date-address-container {
   min-height: 150px;
-  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
