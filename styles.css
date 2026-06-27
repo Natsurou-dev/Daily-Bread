@@ -45,45 +45,64 @@ body {
 }
 
 #verse-block-container {
-  margin-top: 35px;
-  padding: 20px;
-  height: 250px;
-  width: auto;
   background-image: url("photos/0.jpg");
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  margin-top: 35px;
   border-radius: 15px;
   box-shadow: 3px 3px 5px black;
+  padding: 20px;
+  height: auto;
+  width: auto;
+}
+
+#verse-date-address-container {
+  min-height: 150px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #verse-container {
-  height: 190px;
-  width: auto;
-  overflow: hidden;
-  margin-bottom: 7px;
-}
-
-#verse {
-  font-size: 18px;
-  font-family: sans-serif;
-  color: aliceblue;
-  text-wrap: wrap;
-  line-height: 1.4;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9), 1px 1px 4px rgba(0, 0, 0, 0.9);
-  text-align: justify;
-}
-
-#address-date-container {
-  height: 20px;
+  flex-grow: 1;
+  height: auto;
   width: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-#date, #address {
-  font-family: sans-serif;
+#verse {
+  line-height: 1.5;
+  text-align: center;
+}
+
+#date-address-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#verse, #address, #date {
+  font-size: 20px;
+  font-family: Arial, sans-serif;;
   color: aliceblue;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9), 1px 1px 4px rgba(0, 0, 0, 0.9);
-  font-size: 18px;
+  text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px 1px 4px black, -1px -1px 4px black;
+}
+
+#translations-container {
+  border: 2px dashed cyan;
+  margin: 35px 0px 35px 0px;
+  background-color: rgb(229, 210, 187);
+}
+
+#translations-title {
+  border: 2px dashed red;
+  font-family: sans-serif;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  height: auto;
+  width: auto;
 }
