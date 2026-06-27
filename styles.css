@@ -103,16 +103,17 @@ body {
   font-family: Arial, sans-serif;
   color: black;
   font-size: 24px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 15px 15px 0px 0px;
   background-color: rgb(196, 159, 113);
+  height: 35px;
+
 }
 
 ul > li {
   list-style: none;
-}
-
-#translations-list {
 }
 
 #translations-list > li:nth-child(even) {
