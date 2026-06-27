@@ -74,6 +74,7 @@ body {
 #date-address-container {
   display: flex;
   justify-content: space-between;
+  padding: 0px 5px;
 }
 
 
@@ -106,21 +107,61 @@ body {
 
 }
 
-ul > li {
+ul>li {
   list-style: none;
 }
 
-#translations-list > li:nth-child(even) {
+#translations-list>li:nth-child(even) {
   background-color: rgb(196, 159, 113);
 }
 
-#translations-list > li {
+#translations-list>li {
   font-family: Arial, sans-serif;
   font-size: 16px;
   display: flex;
   flex-direction: column;
 }
 
-.translated-verse, .translated-verse-address {
+.translated-verse,
+.translated-verse-address {
   padding: 7px;
+}
+
+@media (min-width: 768px) {
+  #main-container {
+    width: 550px;
+  }
+
+  #banner {
+    border-radius: 15px;
+    height: 100px;
+  }
+
+  #banner-icon {
+    height: 90px;
+  }
+
+  #banner-title {
+    font-size: 65px;
+  }
+
+  #verse-date-address-container {
+    min-height: 200px;
+  }
+
+  #verse {
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+
+  #verse,
+  #address,
+  #date {
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px 1px 4px black, -1px -1px 4px black;
+  }
 }
