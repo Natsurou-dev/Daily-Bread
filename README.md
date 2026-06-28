@@ -24,7 +24,7 @@ https://natsurou-dev.github.io/Daily-Bread/
 
 ## Things I learned
 
-I learned much about media resizing with CSS and also Git branches. Yet I also learned that I enjoy UI design quite thoroughly.
+I learned much about media inquiries with CSS and also Git branches. Yet I also learned that I enjoy UI design quite thoroughly.
 
 ## Future Improvements
 
